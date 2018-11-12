@@ -12,7 +12,7 @@ A curated list of terminal commands for Ubuntu/Linux.
 	* Using process ID
 
 		`ps aux | grep <process_name>`		// Get process ID
-		
+
 		`sudo pkill -9 <PID>`				// Kill process using ID
 	* Using parent process (When sometimes killing the process using PID leaves it defunct)
 
@@ -26,7 +26,7 @@ A curated list of terminal commands for Ubuntu/Linux.
 * Example `./executable > ~/tmp/output_stored.txt`
 
 ![alt text](https://github.com/kumar-akshay324/terminal-commands/blob/master/images/terminal_ouput.png "Terminal command suffixes to redirect screen output")
-![alt text](https://raw.githubusercontent.com/kumar-akshay324/terminal-commands/master/images/terminal_ouput.png "Terminal command suffixes to redirect screen output")
+output")
 
 # Debug hardware issues
 
