@@ -23,7 +23,7 @@ A curated list of terminal commands for Ubuntu/Linux.
 * Several occasions of compiling a code leaves behind a lot of terminal outputs - errors, warnings and other information. If you’re fed up of scrolling through the terminal to notice each of them, use piping and redirection operators to send the output to files.
 * Example `./executable > ~/tmp/output_stored.txt`
 
-![alt text](https://github.com/kumar-akshay324/terminal-commands/raw/master/images/terminal_output.png "Terminal command suffixes to redirect screen output")
+![alt text](https://github.com/kumar-akshay324/terminal-commands/blob/master/images/terminal_output.png "Terminal command suffixes to redirect screen output")
 
 # Debug hardware issues
 
