@@ -12,10 +12,12 @@ A curated list of terminal commands for Ubuntu/Linux.
 	* Using process ID
 
 		`ps aux | grep <process_name>`		// Get process ID
+		
 		`sudo pkill -9 <PID>`				// Kill process using ID
 	* Using parent process (When sometimes killing the process using PID leaves it defunct)
 
 		`ps -o ppid=<PID>`					// Get parent PID
+
 		`sudo pkill -9 <PPID>`				// Kill process using ID
 
 # Handle terminal outputs
