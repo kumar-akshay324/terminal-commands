@@ -41,3 +41,5 @@ output")
 	* `lsusb`			// USB buses, 							
 	* `lsblk`			// blocked devices and 
 	* `lsmod`			// hardware modules plugged into the system
+
+# Git command-line interface
