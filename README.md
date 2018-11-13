@@ -20,6 +20,10 @@ A curated list of terminal commands for Ubuntu/Linux.
 
 		`sudo pkill -9 <PPID>`				// Kill process using ID
 
+	* Sometimes, *Ctrl + Z* is used to kill programs when *Ctrl + C* fails. However, *Ctrl + Z* does NOT kill the program but merely sends it to the background of the current terminal. To kill such processes and any other process running in a particular window of the terminal.
+
+		`sudo kill `jobs -p``
+
 # Handle terminal outputs
 
 * Several occasions of compiling a code leaves behind a lot of terminal outputs - errors, warnings and other information. If you’re fed up of scrolling through the terminal to notice each of them, use piping and redirection operators to send the output to files.
