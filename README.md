@@ -3,7 +3,6 @@ A curated list of terminal commands for Ubuntu/Linux.
 
 ## Process Handling
 
-
 * Kill a process 
 
 	* Using process name
@@ -104,3 +103,12 @@ A curated list of terminal commands for Ubuntu/Linux.
 
 	*	Set the origin/remote git service URL to current local repository
 	`git set-url remote origin "<github/bitbucket repository URL>"`
+
+## Miscellaneous terminal commands
+	
+* Terminal Content Handling
+
+	`clear` 				// Scroll the terminal to clear view - This does NOT erase the terminal history
+	`reset`					// Erase the terminal history and present a clear screen
+	
+
