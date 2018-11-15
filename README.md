@@ -106,9 +106,10 @@ A curated list of terminal commands for Ubuntu/Linux.
 
 ## Miscellaneous terminal commands
 	
-* Terminal Content Handling
-
-	`clear` 				// Scroll the terminal to clear view - This does NOT erase the terminal history
+* Terminal content handling
+	`clear`					// Scroll the terminal to clear view - This does NOT erase the terminal history
 	`reset`					// Erase the terminal history and present a clear screen
-	
+	`tree`					// Show the hierachy of existing files in the current folder
+	`locate <file_name>`	// Search the folder location of a file
+	`pwd`					// Print the current working directory
 
