@@ -123,13 +123,15 @@ A curated list of terminal commands for Ubuntu/Linux.
 	
 	`mkdir -p <path_to_file/file_name>`			// Create a folder in a specific location
 	`mv  <file_to_move> <destination>`			// Move a file to a new location
-	`rm <path_to_directory_to_remove>`			// Delete the particular
+	`rm <path_to_directory/file_to_remove>`		// Delete the particular folder/file
+	`rm -rf <path_to_directory_to_remove>`		// Delete with *-r* flag for recursive and *-f* for forced (*-rf* Combined both)		
 
 * Modifying new files
 
 	`cat > file_name`							// Creates a new file in the particular location
 	`cat file_name`								// Displays the content of the file in the terminal
 	`cat file_1 file_2 > file_3`				// Joins two files (file_1, file_2) and stores the output in a new file file_3
+	`less file_name`							// Displays the contents of the file with more [options] (https://en.wikipedia.org/wiki/Less_(Unix)) 
 
 * Viewing the directory contents
 	
@@ -137,3 +139,17 @@ A curated list of terminal commands for Ubuntu/Linux.
 	`ls -a`										// List files including the hidden files
 	`ls -R`										// List all the files in the sub directories
 	`ls -al`									// List files with all permissions, size, owner, date of modification etc.
+
+## Network Management via Terminal
+
+* `ifconfig`									// Show network information like IP address, HW address and other parameters
+* `iwconfig`									// Show wireless information
+* `iwlist scan`									// Scan for all wireless networks / Run with `sudo`, ideally
+* `sudo /etc/init.d/networking restart`			// Restart the network configuration - All wireless and wired connections
+
+## System Service Management
+
+* `start | stop <service>`						// Start or Stop the particular system service
+* `status <service>`							// Check the status of the running service, whether active or not
+* `etc/init.d/service start | stop | retsart`	// Toggle a system service
+* `runlevel`									// Get current run level
