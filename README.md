@@ -83,12 +83,14 @@ A curated list of terminal commands for Ubuntu/Linux.
 * General Commands
 
 	`git init .` 					// Initialize git in a local folder
+	`git clone remote_git_url`		// Clone a remote repository to a local location
 	`git status`					// Check status of repository to see tracked/committed/unco
 	`git diff`						// Check the difference and edits in new uncommitted files
 	`git branch`					// Check the branches available
 	`git tag`						// Check the tags available
 	`git reset --hard`				// Reset the all changes and get to master branch
 	`git log`						// See history for commits, messages and authors
+	`git blame <file_name>`			// List the changes, date and authors for the file
 
 * Configure user credentials
 	
@@ -107,9 +109,31 @@ A curated list of terminal commands for Ubuntu/Linux.
 ## Miscellaneous terminal commands
 	
 * Terminal content handling
-	`clear`					// Scroll the terminal to clear view - This does NOT erase the terminal history
-	`reset`					// Erase the terminal history and present a clear screen
-	`tree`					// Show the hierachy of existing files in the current folder
-	`locate <file_name>`	// Search the folder location of a file
-	`pwd`					// Print the current working directory
+	`clear`						// Scroll the terminal to clear view - This does NOT erase the terminal history
+	`reset`						// Erase the terminal history and present a clear screen
+	`tree`						// Show the hierachy of existing files in the current folder
+	`locate <file_name>`		// Search the folder location of a file
+	`pwd`						// Print the current working directory
+	`history`					// Get the history of all terminal commands in the window
+	`man <terminal_command>`	//
 
+## File Management via Terminal 
+
+* Handling Directories
+	
+	`mkdir -p <path_to_file/file_name>`			// Create a folder in a specific location
+	`mv  <file_to_move> <destination>`			// Move a file to a new location
+	`rm <path_to_directory_to_remove>`			// Delete the particular
+
+* Modifying new files
+
+	`cat > file_name`							// Creates a new file in the particular location
+	`cat file_name`								// Displays the content of the file in the terminal
+	`cat file_1 file_2 > file_3`				// Joins two files (file_1, file_2) and stores the output in a new file file_3
+
+* Viewing the directory contents
+	
+	`ls`										// List files and directories in the current working directory
+	`ls -a`										// List files including the hidden files
+	`ls -R`										// List all the files in the sub directories
+	`ls -al`									// List files with all permissions, size, owner, date of modification etc.
