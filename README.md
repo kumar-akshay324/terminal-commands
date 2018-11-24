@@ -119,19 +119,25 @@ A curated list of terminal commands for Ubuntu/Linux.
 
 ## File Management via Terminal 
 
-* Handling Directories
+* Handling Files & Directories
 	
 	* `mkdir -p <path_to_file/file_name>`			// Create a folder in a specific location
 	* `mv  <file_to_move> <destination>`			// Move a file to a new location
 	* `rm <path_to_directory/file_to_remove>`		// Delete the particular folder/file
-	* `rm -rf <path_to_directory_to_remove>`		// Delete with *-r* flag for recursive and *-f* for forced (*-rf* Combined both)		
+	* `rm -rf <path_to_directory_to_remove>`		// Delete with *-r* flag for recursive and *-f* for forced (*-rf* Combined both)
+	* `cp <file_1> <file_2>`						// Copy file1 to file2
+	* `cp -r <directory1> <directory2>`				// Copy directory1 to directory2 and create the latter if it doesn't exist
 
-* Modifying new files
+* Modifying/Viewing files
 
 	* `cat > file_name`							// Creates a new file in the particular location
-	* `cat file_name`								// Displays the content of the file in the terminal
+	* `cat file_name`							// Displays the content of the file in the terminal
 	* `cat file_1 file_2 > file_3`				// Joins two files (file_1, file_2) and stores the output in a new file file_3
+	* `more file_name`							// Display all the contents of the file
 	* `less file_name`							// Displays the contents of the file with more [options] (https://en.wikipedia.org/wiki/Less_(Unix)) 
+	* `head file_name`							// Display the first 10 lines of the file 
+	* `tail file_name`							// Display the last 10 lines of the file
+	* `tail -f file_name`						// Display the last 10 lines of a continuously growing in size file
 
 * Viewing the directory contents
 	
@@ -153,3 +159,14 @@ A curated list of terminal commands for Ubuntu/Linux.
 * `status <service>`							// Check the status of the running service, whether active or not
 * `etc/init.d/service start | stop | retsart`	// Toggle a system service
 * `runlevel`									// Get current run level
+
+## Handling File/Folder Compression
+
+* `tar cf <file.tar> < files names| folder>` 	// Compress the list of files or the folder into a tar named file.tar
+* `tar xf <file.tar>` 							// Extracting the content from file.tar
+* `tar czf <file.tar.gz> <files>` 				// Create a tar with Gzip compression
+* `tar xzf <file.tar.gz>` 						// Extract a tar using Gzip
+* `tar cjf <file.tar.bz2>` 						// Create a tar with Bzip2 compression
+* `tar xjf <file.tar.bz2>` 						// Extract a tar using Bzip2
+* `gzip <file>` 								// Compresses file and renames it to file.gz
+* `gzip -d <file.gz>` 							// Decompresses file.gz back to file
