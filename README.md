@@ -170,3 +170,17 @@ A curated list of terminal commands for Ubuntu/Linux.
 * `tar xjf <file.tar.bz2>` 						// Extract a tar using Bzip2
 * `gzip <file>` 								// Compresses file and renames it to file.gz
 * `gzip -d <file.gz>` 							// Decompresses file.gz back to file
+
+## System Info
+
+* `date`										// Display the date on the terminal 
+* `cal`											// Display the month's calendar on the terminal 
+* `uptime`										// Show the current uptime for the machine
+* `w`											// Display who is online
+* `whoami`										// Show the username logged in as, in the current Linux session
+* `uname -a`									// Show the kernel information
+* `df`											// Show the current disk usage		
+* `du`											// Show the current directtory space usage 		
+* `free`										// Show the swap and memory usage
+* `whereis <application>` 						// Search for the possible locations of the application 
+* `which <application>`							// Show the application which will run by default for the application
