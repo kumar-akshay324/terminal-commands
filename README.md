@@ -112,10 +112,11 @@ A curated list of terminal commands for Ubuntu/Linux.
 	* `clear`						// Scroll the terminal to clear view - This does NOT erase the terminal history
 	* `reset`						// Erase the terminal history and present a clear screen
 	* `tree`						// Show the hierachy of existing files in the current folder
-	* `locate <file_name>`		// Search the folder location of a file
-	* `pwd`						// Print the current working directory
-	* `history`					// Get the history of all terminal commands in the window
-	* `man <terminal_command>`	//
+	* `locate <file_name>`			// Search the folder location of a file
+	* `pwd`							// Print the current working directory
+	* `history`						// Get the history of all terminal commands in the window
+	* `man <terminal_command>`		// Get the description of the terminal command
+	* `touch <file_name>`			// Create  
 
 ## File Management via Terminal 
 
@@ -184,3 +185,16 @@ A curated list of terminal commands for Ubuntu/Linux.
 * `free`										// Show the swap and memory usage
 * `whereis <application>` 						// Search for the possible locations of the application 
 * `which <application>`							// Show the application which will run by default for the application
+* `hostname`									// Displays the current session hostname
+* `hostname -I`									// Displays the IP address in the network	
+
+## Permissions
+
+* `chfn`										// Change real user name and information
+* `chgrp`										// Change group ownership for file
+* `chkconfig`									// Modify execution of runlevel services
+* `chmod <options> <permissions> <file_name>`	// Change access permission for a file(s)
+* `chown`										// Change the owner or group for a file
+* `chroot`										// Run a command with root credentials
+* `chsh`										// Toggle between login shell
+* `cksum`										// Perform a CRC checksum for files
